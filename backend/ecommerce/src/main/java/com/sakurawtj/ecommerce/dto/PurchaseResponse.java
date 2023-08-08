@@ -1,2 +1,11 @@
-package com.sakurawtj.ecommerce.dto;public class PurchaseResponse {
+package com.sakurawtj.ecommerce.dto;
+
+import lombok.Data;
+import lombok.NonNull;
+
+@Data
+public class PurchaseResponse {
+    @NonNull
+    private String orderTrackingNumber;
+
 }
